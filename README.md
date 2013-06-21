@@ -24,8 +24,7 @@ myFunction();
 
 During evaluation, it will ouput the following message:
 
-```'myArgument' is undefined
-```
+```'myArgument' is undefined```
 
 The second case occurs when no argument is provided to the *typeCheck* *is* method. In this case it return the type name as string. Considering the following blocks:
 
@@ -51,10 +50,8 @@ function myFunction(myArgument){
 
 Executing the following code:
 
-```myFunction(mySpecialConstructor);
-```
+```myFunction(mySpecialConstructor);```
 
 produce the following output:
 
-```The argument provided to 'myFunction' is the 3.14 version of the contructor.
-```
+```The argument provided to 'myFunction' is the 3.14 version of the contructor.```
