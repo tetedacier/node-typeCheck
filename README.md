@@ -51,8 +51,7 @@ function myFunction(myArgument){
 
 Executing the following code:
 
-```
-myFunction(mySpecialConstructor);
+```myFunction(mySpecialConstructor);
 ```
 
 produce the following output:
