@@ -1,0 +1,20 @@
+{
+  "name": "typeCheck",
+  "version": "0.0.1",
+  "description": "Check constructor or type of variable",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests"
+  },
+  "repository": "",
+  "keywords": [
+    "type",
+    "instance",
+    "constructor"
+  ],
+  "author": "Fabien Jacq",
+  "license": "MIT"
+}
