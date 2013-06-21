@@ -1,0 +1,16 @@
+ObjectLitteral:Object
+RegExpLitteral:RegExp
+ConstructedRegExpLitteral:RegExp
+RealObjectLitteral:FunctionAsObjectConstructor
+ArrayLitteral:Array
+StringLitteral:String
+NumberLitteral:Number
+MathLitteral:Object
+BooleanLitteral:Boolean
+DateLitteral:Date
+FunctionLitteral:Function
+ErrorLitteral:TypeError
+NullLitteral:Null
+UndefinedLitteral:Undefined
+NaNLitteral:NaN
+NaNConstructedLitteral:NaN
