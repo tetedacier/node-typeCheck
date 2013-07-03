@@ -11,7 +11,8 @@ There's two main usage of this little utility module.
 
 In this case a type has been provided to the *typeCheck* *is* method, so it return a boolean value indicating if the provided type name match the *typeCheck* argument type.
 
-```var typeCheck = require('typeCheck');
+```javascript
+var typeCheck = require('typeCheck');
 
 function myFunction(myArgument){
   if(typeCheck(myArgument).is("Undefined")){
@@ -22,12 +23,12 @@ myFunction();
 ```
 
 During evaluation, it will ouput the following message:
-
-```'myArgument' is undefined
-```
+```javascript
+'myArgument' is undefined
 
 The second case occurs when no argument is provided to the *typeCheck* *is* method. In this case it return the type name as string. Considering the following blocks:
 
+```javascript
 var typeCheck = require('typeCheck');
 
 function mySpecialConstructor(){
@@ -46,4 +47,4 @@ function myFunction(myArgument){
 }
 ```
 
-Executing  ```myFunction(mySpecialConstructor);``` ```myFunction``` would return a 'factorised' version of the argument provided.
+Executing  `myFunction(mySpecialConstructor);` `myFunction` would return a 'factorised' version of the argument provided.
