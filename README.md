@@ -48,4 +48,4 @@ function myFunction(myArgument){
 }
 ```
 
-Executing  `myFunction(mySpecialConstructor);` `myFunction` would return a 'factorised' version of the argument provided.
+Executing  `myFunction(mySpecialConstructor);` would return a 'factorised' version of the argument provided.
