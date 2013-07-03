@@ -25,6 +25,7 @@ myFunction();
 During evaluation, it will ouput the following message:
 ```javascript
 'myArgument' is undefined
+```
 
 The second case occurs when no argument is provided to the *typeCheck* *is* method. In this case it return the type name as string. Considering the following blocks:
 
